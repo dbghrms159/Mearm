@@ -1,6 +1,10 @@
 # Mearm
 아두이노 나노와 서보 모터를 이용하여 팔 제작
 
+# 조작과정
+  Serial 통신을 하여 Mearm의 servo모터를 움직인다.<br>
+  Serial 통신으로 조작을 하기위해 GUIProcessing의 GSrick을 이용하여 스틱이 이동되었다는 신호를 보낸다<br>
+  아두이노에서는 GUIProcessing에사 스틱이 이동됬다는 통신이 오면 그 움직인 만큼 servo 모터의 각을 움직여 준다
 
 # processing3 를 이용한 조작 ui
   ![image](https://user-images.githubusercontent.com/38156821/44375160-1fc64900-a52d-11e8-9e8d-aafcafd847fb.png)
